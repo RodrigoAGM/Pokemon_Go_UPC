@@ -1,0 +1,9 @@
+Cargar juego		=>	'C'
+Guardar juego 		=>	'G'
+Abrir mochila		=>	'M'
+Juego especial 1	=>	'TAB'
+Cerrar juego		=>	'ESC'
+Pasar página		=>	'Enter'
+Usar bicicleta		=>	'B'
+Mover jugador		=>	'W' 'A' 'S' 'D'
+

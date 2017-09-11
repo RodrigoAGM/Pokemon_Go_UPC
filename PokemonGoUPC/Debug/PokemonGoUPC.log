@@ -1,0 +1,99 @@
+﻿  Adicional1.cpp
+  AdicionalDos.cpp
+  AdicionalDos1.cpp
+  ArrLugares.cpp
+ArrLugares.cpp(30): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(38): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(49): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(57): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(73): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(88): warning C4018: '<': signed/unsigned mismatch
+ArrLugares.cpp(103): warning C4018: '<': signed/unsigned mismatch
+  Batalla.cpp
+  CapturaPK.cpp
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\CapturaPK.h(24): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  ControlPokemon.cpp
+  Elemento.cpp
+  Elementos_Tipo.cpp
+  FormBatalla.cpp
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(29): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(1806): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(1846): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  FormMochila.cpp
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(1679): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(1687): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2298): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2305): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2446): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2446): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  FormPokeparada.cpp
+  Gimnasio.cpp
+  Juego.cpp
+  Jugador.cpp
+Jugador.cpp(92): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(134): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(139): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(144): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(145): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(146): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(169): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(170): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(171): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(194): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(195): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(198): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Jugador.cpp(199): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Mochila.cpp
+  MyForm.cpp
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(29): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(1806): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormBatalla.h(1846): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\CapturaPK.h(24): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(1679): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(1687): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2298): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2305): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2446): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'System::String ^'
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\FormMochila.h(2446): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(34): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(708): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(710): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(723): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(725): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(738): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(740): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(753): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(755): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(768): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(770): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(783): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(785): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(798): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(800): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(813): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(815): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(828): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(830): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(843): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(845): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(858): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(860): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(873): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(875): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(888): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+r:\users\rodrigo-pc\desktop\upc\evento upc\pokemongoupc\pokemongoupc\MyForm.h(890): warning C4800: 'int': forcing value to bool 'true' or 'false' (performance warning)
+  Objeto.cpp
+  PokeballCaptura.cpp
+  Pokemon.cpp
+  Generating Code...
+  Compiling...
+  Pokemon_Tipo.cpp
+  Pokeparada.cpp
+Pokeparada.cpp(24): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  Run.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  PokemonGoUPC.vcxproj -> R:\Users\Rodrigo-pc\Desktop\UPC\Evento UPC\PokemonGoUPC\Debug\PokemonGoUPC.exe
+  PokemonGoUPC.vcxproj -> R:\Users\Rodrigo-pc\Desktop\UPC\Evento UPC\PokemonGoUPC\Debug\PokemonGoUPC.pdb (Full PDB)

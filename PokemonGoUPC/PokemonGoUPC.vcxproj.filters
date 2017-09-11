@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos\BULBASAUR">
+      <UniqueIdentifier>{52684f97-5804-468a-8001-59f70fe886dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\CHARMANDER">
+      <UniqueIdentifier>{2d958e3e-b84f-41ab-ad73-a867924fad4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\MEOWTH">
+      <UniqueIdentifier>{bb219b2b-e680-4318-93e0-b456aaa2b5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\EVEE">
+      <UniqueIdentifier>{7fbf85e6-b1a2-4042-9c31-f0dff838c85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\PIDGEY">
+      <UniqueIdentifier>{719e3e10-9e8a-4bf2-87a1-9e2a22d2f549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\SNORLAX">
+      <UniqueIdentifier>{6adc500c-1df0-48cb-b15f-af0adf7de0e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\EKANS">
+      <UniqueIdentifier>{5a17d525-beee-4721-ae53-88a8cb0c870e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\SQUIRTLE">
+      <UniqueIdentifier>{dfa533d0-51f1-41a0-bbfe-c2b43a352a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\MAGIKARP">
+      <UniqueIdentifier>{960971d5-694c-4302-ba66-1c6aa3ad90f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\MACHOP">
+      <UniqueIdentifier>{8005c517-4f90-41a1-a0fd-32dc9c525a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\PIKACHU">
+      <UniqueIdentifier>{1c209819-9fcf-4192-895b-eef4eceb5f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\ATAQUES">
+      <UniqueIdentifier>{6adaa213-ee21-4b5d-be6e-4eda170b90bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\ONIX">
+      <UniqueIdentifier>{ebbe792c-e56b-435a-a000-20ff99ef4982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\ABRA">
+      <UniqueIdentifier>{a24b1b61-d38f-4088-bce9-23abaa7cde15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Jugador.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Juego.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon_Tipo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokeparada.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Elemento.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Elementos_Tipo.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimnasio.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrLugares.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="FormPokeparada.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Mochila.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlPokemon.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="CapturaPK.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="PokeballCaptura.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Objeto.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Batalla.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="FormBatalla.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="FormMochila.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="AdicionalDos.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="AdicionalDos1.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Run.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Adicional1.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Jugador.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Juego.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon_Tipo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokeparada.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Elemento.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Elementos_Tipo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimnasio.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrLugares.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="FormPokeparada.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Mochila.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPokemon.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="CapturaPK.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="PokeballCaptura.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Objeto.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Batalla.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="FormBatalla.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="FormMochila.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="AdicionalDos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="AdicionalDos1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Run.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Adicional1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapturaPK.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBatalla.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPokeparada.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMochila.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionalDos1.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adicional1.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Bulbasaur_XY.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="ivysaur.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="venusaur.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="charizard.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="Charmander_XY.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="charmeleon.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="Meowth_XY.gif">
+      <Filter>Archivos de recursos\MEOWTH</Filter>
+    </Image>
+    <Image Include="persian.gif">
+      <Filter>Archivos de recursos\MEOWTH</Filter>
+    </Image>
+    <Image Include="Eevee_XY.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="flareon.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="jolteon.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="vaporeon.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="arbok.gif">
+      <Filter>Archivos de recursos\EKANS</Filter>
+    </Image>
+    <Image Include="Ekans_XY.gif">
+      <Filter>Archivos de recursos\EKANS</Filter>
+    </Image>
+    <Image Include="gyarados.gif">
+      <Filter>Archivos de recursos\MAGIKARP</Filter>
+    </Image>
+    <Image Include="Magikarp_XY.gif">
+      <Filter>Archivos de recursos\MAGIKARP</Filter>
+    </Image>
+    <Image Include="machamp.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="machoke.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="Machop_XY.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="Ataque-Agua.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Agua2.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Electrico.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Electrico2.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Fuego.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Fuego2.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Normal.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-normal2.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-planta.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-psicologico.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Roca.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Ataque-Roca2.gif">
+      <Filter>Archivos de recursos\ATAQUES</Filter>
+    </Image>
+    <Image Include="Abra_XY.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="alakazam.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="kadabra.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="Onix_XY.gif">
+      <Filter>Archivos de recursos\ONIX</Filter>
+    </Image>
+    <Image Include="Pikachu_XY.gif">
+      <Filter>Archivos de recursos\PIKACHU</Filter>
+    </Image>
+    <Image Include="raichu.gif">
+      <Filter>Archivos de recursos\PIKACHU</Filter>
+    </Image>
+    <Image Include="blastoise.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="Squirtle_XY.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="wartortle.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="Snorlax_XY.gif">
+      <Filter>Archivos de recursos\SNORLAX</Filter>
+    </Image>
+    <Image Include="pidgeot.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="pidgeotto.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="pidgey.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="MBUL.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="MIVY.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="MVEN.gif">
+      <Filter>Archivos de recursos\BULBASAUR</Filter>
+    </Image>
+    <Image Include="MCHA.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="MCHAR.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="MCHARI.gif">
+      <Filter>Archivos de recursos\CHARMANDER</Filter>
+    </Image>
+    <Image Include="MMEO.gif">
+      <Filter>Archivos de recursos\MEOWTH</Filter>
+    </Image>
+    <Image Include="MPER.gif">
+      <Filter>Archivos de recursos\MEOWTH</Filter>
+    </Image>
+    <Image Include="MEVE.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="MFLA.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="MJOL.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="MVAP.gif">
+      <Filter>Archivos de recursos\EVEE</Filter>
+    </Image>
+    <Image Include="MARB.gif">
+      <Filter>Archivos de recursos\EKANS</Filter>
+    </Image>
+    <Image Include="MEKA.gif">
+      <Filter>Archivos de recursos\EKANS</Filter>
+    </Image>
+    <Image Include="MGYA.gif">
+      <Filter>Archivos de recursos\MAGIKARP</Filter>
+    </Image>
+    <Image Include="MMAG.gif">
+      <Filter>Archivos de recursos\MAGIKARP</Filter>
+    </Image>
+    <Image Include="MMAC.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="MMACH.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="MMACHA.gif">
+      <Filter>Archivos de recursos\MACHOP</Filter>
+    </Image>
+    <Image Include="MABR.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="MALA.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="MKAD.gif">
+      <Filter>Archivos de recursos\ABRA</Filter>
+    </Image>
+    <Image Include="MONI.gif">
+      <Filter>Archivos de recursos\ONIX</Filter>
+    </Image>
+    <Image Include="MPIK.gif">
+      <Filter>Archivos de recursos\PIKACHU</Filter>
+    </Image>
+    <Image Include="MRAI.gif">
+      <Filter>Archivos de recursos\PIKACHU</Filter>
+    </Image>
+    <Image Include="MBLA.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="MSQU.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="MWAR.gif">
+      <Filter>Archivos de recursos\SQUIRTLE</Filter>
+    </Image>
+    <Image Include="MSNO.gif">
+      <Filter>Archivos de recursos\SNORLAX</Filter>
+    </Image>
+    <Image Include="MPID.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="MPIDG.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="MPIDGE.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+    <Image Include="PIDAD2.gif">
+      <Filter>Archivos de recursos\PIDGEY</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PokemonGoUPC.rc">
+      <Filter>Archivos de recursos</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

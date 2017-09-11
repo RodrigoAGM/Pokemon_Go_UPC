@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5631AFD-32DA-4B75-A318-929D973F9E57}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>PokemonGoUPC</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Adicional1.cpp" />
+    <ClCompile Include="AdicionalDos.cpp" />
+    <ClCompile Include="AdicionalDos1.cpp" />
+    <ClCompile Include="ArrLugares.cpp" />
+    <ClCompile Include="Batalla.cpp" />
+    <ClCompile Include="CapturaPK.cpp" />
+    <ClCompile Include="ControlPokemon.cpp" />
+    <ClCompile Include="Elemento.cpp" />
+    <ClCompile Include="Elementos_Tipo.cpp" />
+    <ClCompile Include="FormBatalla.cpp" />
+    <ClCompile Include="FormMochila.cpp" />
+    <ClCompile Include="FormPokeparada.cpp" />
+    <ClCompile Include="Gimnasio.cpp" />
+    <ClCompile Include="Juego.cpp" />
+    <ClCompile Include="Jugador.cpp" />
+    <ClCompile Include="Mochila.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="Objeto.cpp" />
+    <ClCompile Include="PokeballCaptura.cpp" />
+    <ClCompile Include="Pokemon.cpp" />
+    <ClCompile Include="Pokemon_Tipo.cpp" />
+    <ClCompile Include="Pokeparada.cpp" />
+    <ClCompile Include="Run.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Adicional1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="AdicionalDos.h" />
+    <ClInclude Include="AdicionalDos1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ArrLugares.h" />
+    <ClInclude Include="Batalla.h" />
+    <ClInclude Include="CapturaPK.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="ControlPokemon.h" />
+    <ClInclude Include="Elemento.h" />
+    <ClInclude Include="Elementos_Tipo.h" />
+    <ClInclude Include="FormBatalla.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FormMochila.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FormPokeparada.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Gimnasio.h" />
+    <ClInclude Include="Juego.h" />
+    <ClInclude Include="Jugador.h" />
+    <ClInclude Include="Mochila.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Objeto.h" />
+    <ClInclude Include="PokeballCaptura.h" />
+    <ClInclude Include="Pokemon.h" />
+    <ClInclude Include="Pokemon_Tipo.h" />
+    <ClInclude Include="Pokeparada.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Run.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Adicional1.resx">
+      <DependentUpon>Adicional1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionalDos1.resx">
+      <DependentUpon>AdicionalDos1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CapturaPK.resx">
+      <DependentUpon>CapturaPK.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBatalla.resx">
+      <DependentUpon>FormBatalla.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMochila.resx">
+      <DependentUpon>FormMochila.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPokeparada.resx">
+      <DependentUpon>FormPokeparada.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Abra_XY.gif" />
+    <Image Include="alakazam.gif" />
+    <Image Include="arbok.gif" />
+    <Image Include="Ataque-Agua.gif" />
+    <Image Include="Ataque-Agua2.gif" />
+    <Image Include="Ataque-Electrico.gif" />
+    <Image Include="Ataque-Electrico2.gif" />
+    <Image Include="Ataque-Fuego.gif" />
+    <Image Include="Ataque-Fuego2.gif" />
+    <Image Include="Ataque-Normal.gif" />
+    <Image Include="Ataque-normal2.gif" />
+    <Image Include="Ataque-planta.gif" />
+    <Image Include="Ataque-psicologico.gif" />
+    <Image Include="Ataque-Roca.gif" />
+    <Image Include="Ataque-Roca2.gif" />
+    <Image Include="blastoise.gif" />
+    <Image Include="Bulbasaur_XY.gif" />
+    <Image Include="charizard.gif" />
+    <Image Include="Charmander_XY.gif" />
+    <Image Include="charmeleon.gif" />
+    <Image Include="Eevee_XY.gif" />
+    <Image Include="Ekans_XY.gif" />
+    <Image Include="flareon.gif" />
+    <Image Include="gyarados.gif" />
+    <Image Include="ivysaur.gif" />
+    <Image Include="jolteon.gif" />
+    <Image Include="kadabra.gif" />
+    <Image Include="MABR.gif" />
+    <Image Include="machamp.gif" />
+    <Image Include="machoke.gif" />
+    <Image Include="Machop_XY.gif" />
+    <Image Include="Magikarp_XY.gif" />
+    <Image Include="MALA.gif" />
+    <Image Include="MARB.gif" />
+    <Image Include="MBLA.gif" />
+    <Image Include="MBUL.gif" />
+    <Image Include="MCHA.gif" />
+    <Image Include="MCHAR.gif" />
+    <Image Include="MCHARI.gif" />
+    <Image Include="MEKA.gif" />
+    <Image Include="Meowth_XY.gif" />
+    <Image Include="MEVE.gif" />
+    <Image Include="MFLA.gif" />
+    <Image Include="MGYA.gif" />
+    <Image Include="MIVY.gif" />
+    <Image Include="MJOL.gif" />
+    <Image Include="MKAD.gif" />
+    <Image Include="MMAC.gif" />
+    <Image Include="MMACH.gif" />
+    <Image Include="MMACHA.gif" />
+    <Image Include="MMAG.gif" />
+    <Image Include="MMEO.gif" />
+    <Image Include="MONI.gif" />
+    <Image Include="MPER.gif" />
+    <Image Include="MPID.gif" />
+    <Image Include="MPIDG.gif" />
+    <Image Include="MPIDGE.gif" />
+    <Image Include="MPIK.gif" />
+    <Image Include="MRAI.gif" />
+    <Image Include="MSNO.gif" />
+    <Image Include="MSQU.gif" />
+    <Image Include="MVAP.gif" />
+    <Image Include="MVEN.gif" />
+    <Image Include="MWAR.gif" />
+    <Image Include="Onix_XY.gif" />
+    <Image Include="persian.gif" />
+    <Image Include="PIDAD2.gif" />
+    <Image Include="pidgeot.gif" />
+    <Image Include="pidgeotto.gif" />
+    <Image Include="pidgey.gif" />
+    <Image Include="Pikachu_XY.gif" />
+    <Image Include="raichu.gif" />
+    <Image Include="Snorlax_XY.gif" />
+    <Image Include="Squirtle_XY.gif" />
+    <Image Include="vaporeon.gif" />
+    <Image Include="venusaur.gif" />
+    <Image Include="wartortle.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PokemonGoUPC.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
