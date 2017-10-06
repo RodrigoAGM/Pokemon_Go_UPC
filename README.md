@@ -15,6 +15,12 @@ Game based on Nintendo's Pokemon Go game and developed as final project for the 
 
 ---
 <div>
-<img src = "Resources/SS1.png"  WIDTH=405 HEIGHT=408 hspace=10/> 
-<img src = "Resources/SS2.png"  WIDTH=405 HEIGHT=408 hspace=10/>
+<img src = "Resources/SS1.png"  WIDTH=405 HEIGHT=408 hspace=13/> 
+<img src = "Resources/SS2.png"  WIDTH=405 HEIGHT=408 hspace=13/>
 <div/>
+<div>
+<img src = "Resources/SS3.png"  WIDTH=405 HEIGHT=390 hspace=13/> 
+<img src = "Resources/SS4.png"  WIDTH=405 HEIGHT=290 hspace=13/>
+<div/>
+
+### Made by: <a href = "https://github.com/RodrigoAGM">@RodrigoAGM </a> :smile:
