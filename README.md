@@ -23,4 +23,4 @@ Game based on Nintendo's Pokemon Go game and developed as final project for the 
 <img src = "Resources/SS4.png"  WIDTH=405 HEIGHT=290 hspace=13/>
 <div/>
 
-### Made by: <a href = "https://github.com/RodrigoAGM">@RodrigoAGM </a> :smile:
+### Made by: <a href = "https://github.com/RodrigoAGM">@RodrigoAGM </a> :peru:
